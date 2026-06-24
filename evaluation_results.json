@@ -1,0 +1,45 @@
+{
+  "baseline_accuracy": 0.4571,
+  "finetuned_accuracy": 0.5,
+  "improvement": 0.0429,
+  "test_set_size": 70,
+  "label_map": {
+    "analysis": 0,
+    "hot_take": 1,
+    "reaction": 2
+  },
+  "model": "distilbert-base-uncased",
+  "ece": 0.3662,
+  "calibration_buckets": [
+    {
+      "range": "0.33\u20130.50",
+      "n": 2,
+      "avg_conf": 0.446,
+      "accuracy": 1.0
+    },
+    {
+      "range": "0.50\u20130.65",
+      "n": 7,
+      "avg_conf": 0.589,
+      "accuracy": 0.286
+    },
+    {
+      "range": "0.65\u20130.80",
+      "n": 13,
+      "avg_conf": 0.735,
+      "accuracy": 0.385
+    },
+    {
+      "range": "0.80\u20130.95",
+      "n": 39,
+      "avg_conf": 0.902,
+      "accuracy": 0.564
+    },
+    {
+      "range": "0.95\u20131.00",
+      "n": 9,
+      "avg_conf": 0.962,
+      "accuracy": 0.444
+    }
+  ]
+}

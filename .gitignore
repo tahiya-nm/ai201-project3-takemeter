@@ -1,0 +1,6 @@
+takemeter-model-final/
+*.zip
+__pycache__/
+env/
+venv/
+*.pyc
