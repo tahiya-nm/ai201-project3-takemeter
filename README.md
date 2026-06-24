@@ -5,6 +5,11 @@
 
 ---
 
+[Demo Video
+](https://youtu.be/-ss9Ug_esEI)
+
+---
+
 ## Table of Contents
 1. [Community](#community)
 2. [Label Taxonomy](#label-taxonomy)
@@ -363,4 +368,3 @@ Before beginning annotation, I used Claude to generate 10 posts sitting at the b
 
 *Dataset: `dundermifflin_labeled.csv` — 461 labeled posts from r/DunderMifflin (June 1st – August 1st 2020)*  
 *Model: fine-tuned `distilbert-base-uncased` · Baseline: Groq `llama-3.3-70b-versatile` (zero-shot)*  
-*Demo video: TODO — add link after recording*
